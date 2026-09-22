@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+        background-color: cornflowerblue;
+        }
+        login-container{ 
+            background-color: slateblue;
+            text-align: center;
+            border: 10px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="login-container" align="center">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <label >Username:</label>
+            <input type="text" placeholder="Enter Username" required><br>
+            <label>Password:</label>
+            <input type="password"required placeholder="Enter password"><br>
+            <a href="">Forget Password?</a><br>
+            <input type="reset" value="reset">
+            <input type="submit" value="Log IN">
+        </form>
+    </div>
+</body>
+</html>
